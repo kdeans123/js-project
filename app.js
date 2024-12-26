@@ -1,5 +1,8 @@
-let ccash = 50
-let price = 40 
-let isStoreOpen = true 
+function addUp(num) {
+for (let i=0; i<num; ++1) {
+    sum = sum + i;
+}
+return sum
+}
 
-Cash > price && isStoreOpen ? console.log("print the receipt") : console.log("do not print")
+console.log(addUp(3));
